@@ -1,5 +1,6 @@
 flask
 requests
-python-multipart
+python-dotenv
 pymongo
+dnspython
 gunicorn
