@@ -5,9 +5,9 @@ from pymongo import MongoClient
 
 app = Flask(__name__)
 
-# PINATA_API_KEY = "757d1d4a47cc7ab3d947"
-# PINATA_SECRET_KEY = "b8c1251775cdac989b19fe1bae8044d0119d08594d4c414b6a21e2c03125fd57"
-# PINATA_PIN_FILE_URL = "https://api.pinata.cloud/pinning/pinFileToIPFS"
+PINATA_API_KEY = "757d1d4a47cc7ab3d947"
+PINATA_SECRET_KEY = "b8c1251775cdac989b19fe1bae8044d0119d08594d4c414b6a21e2c03125fd57"
+PINATA_PIN_FILE_URL = "https://api.pinata.cloud/pinning/pinFileToIPFS"
 
 # MongoDB connection
 MONGO_URL = "mongodb+srv://username:VvwnBeJMOue4jMs1@cluster0.n5ejfzl.mongodb.net/?retryWrites=true&w=majority&tls=true"
