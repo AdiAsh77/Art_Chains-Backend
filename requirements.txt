@@ -1,6 +1,3 @@
-fastapi
-uvicorn
+flask
 requests
-motor
-httpx
 python-multipart
