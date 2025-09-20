@@ -89,6 +89,6 @@ async def plag_end(data: dict):
 async def get_user():
     documents = []
     async for doc in gallary_collection.find():
-        documents.append(doc["d"])
+        documents.append(doc["cid"])
     return documents
     
