@@ -10,7 +10,7 @@ app = Flask(__name__)
 # PINATA_PIN_FILE_URL = "https://api.pinata.cloud/pinning/pinFileToIPFS"
 
 # MongoDB connection
-MONGO_URL = "mongodb+srv://AdiAsh77:{quote_plus(password)}@cluster0.bhxmoh4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_URL = "mongodb+srv://username:VvwnBeJMOue4jMs1@cluster0.n5ejfzl.mongodb.net/?retryWrites=true&w=majority&tls=true"
 client = MongoClient(MONGO_URL)
 db = client["HackOasis"]
 gallary_collection = db["Gallary"]
